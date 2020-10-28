@@ -11,6 +11,9 @@ function mostraHora(){
   let segons = data.getSeconds();
   let horesMostrar, minutsMostrar, segonsMostrar;
 
+  // Comentari afegit
+
+
   horesMostrar = (hores < 10) ? ("0" + hores) : hores;
   minutsMostrar = (minuts < 10) ? ("0" + minuts) : minuts;
   segonsMostrar = (segons < 10) ? ("0" + segons) : segons;
